@@ -54,7 +54,7 @@ let page;
     //Checkin
     if (!isDebug) {
       console.log('waiting rand time');
-      await page.waitForTimeout(Math.floor(Math.random() * 15 * 60 * 1000));
+      //await page.waitForTimeout(Math.floor(Math.random() * 15 * 60 * 1000));
       console.log('finished waiting rand time');
     }
     console.log('waiting for wrapperCheckin');
