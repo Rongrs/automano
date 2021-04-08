@@ -4,7 +4,7 @@ fs.config();
 const io = require("@actions/io");
 const puppeteer = require("puppeteer");
 
-const isDebug = true;
+const isDebug = false;
 let page;
 
 (async () => {
